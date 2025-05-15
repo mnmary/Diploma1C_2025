@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd8a36a3-77ce-4989-b755-9c806a41c647">
+  <producedTypes>
+    <managerType typeId="27d32dcf-4e54-45cd-9cb7-93975625b052" valueTypeId="fb00229c-191b-4d56-9e50-39be3ff03c84"/>
+    <valueManagerType typeId="4384315d-6be1-4d46-ae37-cce8d3bf9f81" valueTypeId="38248287-bb93-4abf-a7f5-331119b01d78"/>
+    <valueKeyType typeId="692e80dc-df22-491e-a06b-67e116461e0c" valueTypeId="44ae548b-f8ee-4c26-b2f6-e9bbb7cb2548"/>
+  </producedTypes>
+  <name>BKM_ТелеграмИдентификаторГруппыОповещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM телеграм идентификатор группы оповещения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

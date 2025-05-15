@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="875ee3d5-0029-4627-af57-5e3d62a43566">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.BKM_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.BKM_ТелеграмИдентификаторГруппыОповещения</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>Catalog.ВКМ_Подразделение</content>
+  <content>Catalog.BKM_УведомленияТелеграмБоту</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.BKM_ОбслуживаниеКлиентов</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_ЗаполнитьГрафикРабот</content>
+  <content>InformationRegister.ВКМ_ГрафикиРабот</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_СведенияОбОтпусках</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Report.BKM_РасчетыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+</mdclass:Subsystem>
