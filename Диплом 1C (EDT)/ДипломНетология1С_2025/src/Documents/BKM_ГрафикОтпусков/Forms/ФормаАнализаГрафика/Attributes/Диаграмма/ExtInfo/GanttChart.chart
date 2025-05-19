@@ -259,6 +259,27 @@
         <blue>192</blue>
       </scaleColor>
       <dayFormatRule>MonthDayWeekDay</dayFormatRule>
+      <format>
+        <key>ru</key>
+        <value>ДФ=dd</value>
+      </format>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+    <levels>
+      <measure>Month</measure>
+      <interval>1</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Dotted</style>
+      </line>
+      <scaleColor xsi:type="core:ColorDef">
+        <red>192</red>
+        <green>192</green>
+        <blue>192</blue>
+      </scaleColor>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
       <labels/>
       <showPereodicalLabels>true</showPereodicalLabels>
     </levels>
@@ -269,13 +290,13 @@
       <color>Style.FormTextColor</color>
     </textColor>
   </timeScale>
-  <keepScaleVariant>Auto</keepScaleVariant>
+  <keepScaleVariant>Period</keepScaleVariant>
   <fixedVariantMeasure>Month</fixedVariantMeasure>
   <fixedVariantInterval>1</fixedVariantInterval>
   <autoFullInterval>true</autoFullInterval>
-  <fullIntervalBegin>2016-12-31T00:00:00</fullIntervalBegin>
-  <fullIntervalEnd>2017-01-10T23:59:59</fullIntervalEnd>
-  <visualBegin>2016-12-31T00:00:00</visualBegin>
+  <fullIntervalBegin>2016-12-01T00:00:00</fullIntervalBegin>
+  <fullIntervalEnd>2016-12-31T23:59:59</fullIntervalEnd>
+  <visualBegin>2016-12-01T00:00:00</visualBegin>
   <intervalDrawType>Gradient</intervalDrawType>
   <noneVariantChars>3.0</noneVariantChars>
   <noneVariantMeasure>Day</noneVariantMeasure>

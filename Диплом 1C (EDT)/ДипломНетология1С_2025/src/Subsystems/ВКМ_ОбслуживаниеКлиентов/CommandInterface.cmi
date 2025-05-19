@@ -26,18 +26,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Catalog.Контрагенты.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -62,6 +50,18 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.Контрагенты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.BKM_МассовоеСозданиеАктов.StandardCommand.Open</command>
       <visible>
         <common>true</common>
@@ -78,8 +78,6 @@
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ВКМ_Подразделение.StandardCommand.OpenList</commands>
-      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
-      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
@@ -90,6 +88,11 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_СообщенияДляТелеграмБота</group>
       <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ВКМ_Клиенты</group>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Обработки</group>
@@ -106,8 +109,6 @@
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ВКМ_Подразделение.StandardCommand.OpenList</commands>
-      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
-      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -118,6 +119,11 @@
     <orderFragments>
       <group>CommandGroup.ВКМ_СообщенияДляТелеграмБота</group>
       <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ВКМ_Клиенты</group>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelReports</group>

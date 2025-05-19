@@ -1062,6 +1062,7 @@
   <commandGroups>CommandGroup.ВКМ_РегистрыСведений</commandGroups>
   <commandGroups>CommandGroup.ВКМ_РегистрыНакоплений</commandGroups>
   <commandGroups>CommandGroup.ВКМ_СообщенияДляТелеграмБота</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Клиенты</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>

@@ -68,6 +68,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.BKM_НачислениеФиксированнойПремии.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</registerRecords>
@@ -105,6 +106,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="8b507ed7-16f0-4923-83ad-245cffcf81cc">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="a79dadb8-9cb6-493e-bc81-8e1c641f3f88">
     <producedTypes>
       <objectType typeId="afdb6a4a-285c-48d9-8bfb-766d948da41b" valueTypeId="7cdcef3f-3059-4a02-bb87-759c976c0b3d"/>
